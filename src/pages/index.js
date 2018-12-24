@@ -25,8 +25,9 @@ const IndexPage = () => (
             </div>
             <div>
                 <label>Message</label>
-                <textarea name="message"></textarea>
+                <textarea name="message"/>
             </div>
+            <input type="submit" value="Post"/>
         </form>
         <Link to="/page-2/">Go to page 2</Link>
     </Layout>
